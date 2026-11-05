@@ -1,0 +1,8 @@
+﻿Campo,Tipo,Descripción,Ejemplo,Problema de calidad
+cod_dpto,Texto,Código DANE del departamento (2 dígitos),05,Ninguno detectado
+dpto,Texto,Nombre del departamento,ANTIOQUIA,Ninguno detectado
+cod_mpio,Texto,Código DANE del municipio (5 dígitos),05001,Ninguno detectado
+nom_mpio,Texto,Nombre del municipio,MEDELLÍN,Nombres repetidos en distintos departamentos (ej. ALBANIA); cruzar por código
+tipo_municipio,Texto,"Municipio, Isla o Área no municipalizada",Municipio,Incluye 18 'Área no municipalizada' y 1 'Isla' que no son municipios
+longitud,Texto,"Longitud en grados, con coma decimal","-75,581775",Coma decimal y guardado como texto
+latitud,Texto,"Latitud en grados, con coma decimal","6,246631",Coma decimal y guardado como texto

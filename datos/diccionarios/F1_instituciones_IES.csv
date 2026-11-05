@@ -1,0 +1,23 @@
+﻿Campo,Tipo,Descripción,Ejemplo,Problema de calidad
+Código Institución,Texto,Código SNIES de la institución,1.123,Usa punto de miles ('1.123'); en F2 el mismo código viaja sin punto
+Nombre Institución,Texto,Nombre oficial de la institución de educación superior,UNIVERSIDAD POPULAR DEL CESAR,Ninguno detectado
+Número Identificación Tributaria - NIT,Texto,NIT de la institución,892.300.285-6,Formato con puntos y guion; no es numérico
+Principal/Seccional,Texto,Indica si es sede principal o seccional,Seccional,Ninguno detectado
+Naturaleza Jurídica,Texto,Naturaleza jurídica de la institución,Nacional,Ninguno detectado
+Sector,Texto,Sector de la institución (oficial o privado),Oficial,Ninguno detectado
+Carácter Académico,Texto,"Carácter académico (universidad, institución universitaria, etc.)",Universidad,Ninguno detectado
+Cod Departamento,Texto,Departamento de domicilio (debería ser un código),Cesar,"Contiene el nombre del departamento, no un código"
+Departamento Domicilio,Texto,Nombre del departamento de domicilio,Cesar,Ninguno detectado
+Cod Municipio,Texto,Código del municipio de domicilio,(vacío),361 vacíos
+Municipio Domicilio,Texto,Nombre del municipio de domicilio,Aguachica,Ninguno detectado
+Dirección Domicilio,Texto,Dirección de la institución,Cra. 40  v¿a al Mar,41 con caracteres corruptos ('¿')
+Teléfono Domicilio,Texto,Teléfono de la institución,5654900,7 con 'SIN DATO'/'NA'
+Norma de Creación,Texto,Norma legal con la que se creó la institución,Ley 34 Congreso de Colombia.,27 con caracteres corruptos ('¿')
+Fecha Norma de Creación,Fecha,Fecha de la norma de creación,1976-11-19,30 fechas imposibles (año <1900 o >2026)
+¿Acreditada Alta Calidad?,Texto,SI/NO: acreditación de alta calidad vigente,NO,Ninguno detectado
+Fecha Acreditación,Fecha,Fecha de la acreditación,2021-08-25,254 con 'SIN DATO'/'NA'
+Resolución de la acreditación,Texto,Número de la resolución que acredita,2087,249 con 'SIN DATO'/'NA'
+Vigencia de la acreditación,Texto,Vigencia de la acreditación,10,254 con 'SIN DATO'/'NA'
+Estado,Texto,Estado de la institución a la fecha de actualización,Activa en la Fecha de Actualizacion,Ninguno detectado
+Fecha Actualizacion,Fecha,Fecha de actualización del registro,2022-07-08,Ninguno detectado
+Página Web,Texto,Sitio web de la institución,www.unicesar.edu.co,Ninguno detectado
