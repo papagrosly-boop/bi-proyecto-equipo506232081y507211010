@@ -4,8 +4,8 @@ Fecha de descarga de las tres fuentes: 2026-10-23. Sin datos sintéticos.
 
 | Fuente | URL | Formato | Licencia | Pasos |
 |---|---|---|---|---|
-| F1 Instituciones de Educación Superior | (completar: URL de la ficha en datos.gov.co) | CSV | (completar desde la ficha) | Abrir la ficha > Exportar > CSV |
-| F2 Matrícula estadística de educación superior | (completar: URL de la ficha en datos.gov.co) | CSV | (completar desde la ficha) | Abrir la ficha > Exportar > CSV |
+| F1 Instituciones de Educación Superior | https://www.datos.gov.co/Educaci-n/MEN_INSTITUCIONES-EDUCACI-N-SUPERIOR/n5yy-8nav/about_data | CSV | (completar desde la ficha) | Abrir la ficha > Exportar > CSV |
+| F2 Matrícula estadística de educación superior | https://www.datos.gov.co/Educaci-n/MEN_MATRICULA_ESTADISTICA_ES/5wck-szir/about_data | CSV | (completar desde la ficha) | Abrir la ficha > Exportar > CSV |
 | F3 DIVIPOLA - Códigos municipios | https://www.datos.gov.co/d/gdxc-w37w | XML | (confirmar en la ficha) | Abrir la ficha > Exportar > XML |
 
 Archivos esperados en `datos/raw/`:
